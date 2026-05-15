@@ -1,8 +1,14 @@
-.header {}
+.header {
+    min-height: 100vh; // подгон высоты первого блока под высоту экрана  / 1vh — это всегда ровно 1% от высоты текущего экрана.
+    background-color: #e1edf2;
+    background-image: url('./../img/header/header-bg.jpg');
+}
 
-.container {}
 
-.header__top {}
+
+.header__top {
+    padding: 44px 0;
+}
 
 .nav {}
 

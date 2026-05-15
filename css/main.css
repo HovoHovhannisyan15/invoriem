@@ -111,4 +111,19 @@ input[type=file] {
 body {
   font-family: "Gilroy", sans-serif;
   font-weight: 500;
+}
+
+.container {
+  max-width: 1750px;
+  padding: 0 15px;
+}
+
+.header {
+  min-height: 100vh;
+  background-color: #e1edf2;
+  background-image: url("./../img/header/header-bg.jpg");
+}
+
+.header__top {
+  padding: 44px 0;
 }/*# sourceMappingURL=main.css.map */
