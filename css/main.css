@@ -159,13 +159,11 @@ body {
 }
 
 .header__content {
-  border: 1px solid brown;
   max-width: 1060px;
 }
 
 .header__title {
   margin-bottom: 48px;
-  border: 1px solid green;
   max-width: 734px;
   font-weight: 800;
   color: #114555;
