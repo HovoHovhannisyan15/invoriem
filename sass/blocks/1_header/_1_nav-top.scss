@@ -2,6 +2,8 @@
     min-height: 100vh; // подгон высоты первого блока под высоту экрана  / 1vh — это всегда ровно 1% от высоты текущего экрана.
     background-color: #e1edf2;
     background-image: url('./../img/header/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -10,12 +12,24 @@
     padding: 44px 0;
 }
 
-.nav {}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
 
-.nav__logo {}
+// .nav__logo {}
 
-.nav__list {}
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 118px;
+}
 
-.link {}
+.link {
+    color: #114455;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 36px;
+}
 
-.btn {}
+// .btn {}

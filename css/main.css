@@ -115,15 +115,47 @@ body {
 
 .container {
   max-width: 1750px;
-  padding: 0 15px;
+  padding: 0 110px;
+  margin: 0 auto;
 }
 
 .header {
   min-height: 100vh;
   background-color: #e1edf2;
   background-image: url("./../img/header/header-bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .header__top {
   padding: 44px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 118px;
+       column-gap: 118px;
+}
+
+.link {
+  color: #114455;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  border: 1px solid #114455;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #114455;
 }/*# sourceMappingURL=main.css.map */
