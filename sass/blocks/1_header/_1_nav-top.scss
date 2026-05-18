@@ -10,6 +10,7 @@
 
 .header__top {
     padding: 44px 0;
+    margin-bottom: 126px;
 }
 
 .nav {
@@ -28,8 +29,16 @@
 .link {
     color: #114455;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 36px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #114455;
+    transition: border-bottom-color 0.2s ease-in;
+
+    &:hover {
+        border-bottom-color: red;
+        transition: border-bottom-color 0.2s ease-in;
+    }
 }
 
 // .btn {}

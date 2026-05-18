@@ -115,7 +115,7 @@ body {
 
 .container {
   max-width: 1750px;
-  padding: 0 110px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
@@ -129,6 +129,7 @@ body {
 
 .header__top {
   padding: 44px 0;
+  margin-bottom: 126px;
 }
 
 .nav {
@@ -146,16 +147,90 @@ body {
 .link {
   color: #114455;
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 36px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #114455;
+  transition: border-bottom-color 0.2s ease-in;
+}
+.link:hover {
+  border-bottom-color: red;
+  transition: border-bottom-color 0.2s ease-in;
+}
+
+.header__content {
+  border: 1px solid brown;
+  max-width: 1060px;
+}
+
+.header__title {
+  margin-bottom: 48px;
+  border: 1px solid green;
+  max-width: 734px;
+  font-weight: 800;
+  color: #114555;
+  font-size: 80px;
+}
+
+.header__text p {
+  font-size: 34px;
+  font-weight: 500;
+  color: #1f1f1f;
+  margin-bottom: 72px;
+}
+.header__text p + .header__text p {
+  margin-top: 1em;
 }
 
 .btn {
   display: inline-block;
   padding: 10px 24px;
+  padding-right: 72px;
   border: 1px solid #114455;
   border-radius: 2px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 2px;
   color: #114455;
+  position: relative;
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("./../img/.jpg");
+  background-image: url("./../img/icons/arrow_right_black.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn {
+  transition: background-color 0.2s ease-in;
+}
+.btn:hover {
+  background-color: #114455;
+  color: #fff;
+}
+.btn:hover::after {
+  background-image: url("./../img/icons/arrow_right_white.svg");
+}
+.btn:hover {
+  transition: background-color 0.2s ease-in;
+}
+.btn:active {
+  top: 1px;
+}
+
+.btn--big {
+  padding: 14px 32px;
+  font-weight: 500;
+  padding-right: 80px;
+}
+
+.btn--dark::after {
+  background-image: url("./../img/icons/arrow_right_black.svg");
 }/*# sourceMappingURL=main.css.map */

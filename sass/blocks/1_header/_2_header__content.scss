@@ -1,0 +1,30 @@
+.header__content {
+    border: 1px solid brown;
+    max-width: 1060px;
+}
+
+.header__title {
+    margin-bottom: 48px;
+    border: 1px solid green;
+    max-width: 734px;
+    font-weight: 800;
+    color: #114555;
+    font-size: 80px;
+}
+
+.header__text {
+    p {
+        font-size: 34px;
+        font-weight: 500;
+        color: #1f1f1f;
+        margin-bottom: 72px;
+
+        &+& {
+            margin-top: 1em;
+        }
+    }
+}
+
+.header__btn {}
+
+.btn {}
