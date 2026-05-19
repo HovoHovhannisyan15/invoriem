@@ -119,6 +119,10 @@ body {
   margin: 0 auto;
 }
 
+.none {
+  display: none;
+}
+
 .header {
   min-height: 100vh;
   background-color: #e1edf2;
@@ -178,6 +182,18 @@ body {
 }
 .header__text p + .header__text p {
   margin-top: 1em;
+}
+
+.case-studies {
+  padding: 184px 0;
+}
+
+.case-studies__title {
+  margin-bottom: 12px;
+}
+
+.case-studies__text {
+  margin-bottom: 100px;
 }
 
 .btn {

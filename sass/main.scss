@@ -6,9 +6,15 @@
 
 
 // blocks
+
+// 1 - header
 @import './blocks/1_header/1_nav-top'; // навигация в шапке
 @import './blocks/1_header/2_header__content'; // контент в шапке 
 
+// 2 - main
+@import './blocks/2_main/1_section-1'; // section 1
+
 
 // components
-@import './components/1_btn';
+@import './components/1_btn'; // btn
+@import './components/2_main'; // title / text
