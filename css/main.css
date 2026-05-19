@@ -115,8 +115,14 @@ body {
 
 .container {
   max-width: 1750px;
-  padding: 0 30px;
+  padding: 0 15px;
   margin: 0 auto;
+}
+
+.container-right {
+  padding-left: max(15px, (100% - 1750px) / 2 + 15px);
+  border: 1px solid red;
+  height: 40px;
 }
 
 .none {
