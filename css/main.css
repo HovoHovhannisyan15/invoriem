@@ -121,8 +121,6 @@ body {
 
 .container-right {
   padding-left: max(15px, (100% - 1750px) / 2 + 15px);
-  border: 1px solid red;
-  height: 40px;
 }
 
 .none {
@@ -202,6 +200,23 @@ body {
 .case-studies__text {
   max-width: 1070px;
   margin-bottom: 100px;
+}
+
+.slide {
+  position: relative;
+  display: inline-block;
+  padding-left: 80px;
+}
+
+.slide__title {
+  position: absolute;
+  left: 0;
+  bottom: 104px;
+  font-size: 140px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #114455 15%, #ffffff 15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .btn {

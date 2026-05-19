@@ -1,0 +1,32 @@
+.container-right {}
+
+.slider {}
+
+.slider__item {}
+
+.slide {
+    position: relative;
+    display: inline-block;
+    // background-color: rgb(247, 200, 200);
+    padding-left: 80px;
+}
+
+.slide__title {
+    position: absolute;
+    left: 0;
+    bottom: 104px;
+    font-size: 140px;
+    font-weight: 800;
+
+    // делаем градиент для текста заголовка 
+    background: linear-gradient(90deg, #114455 15%, #ffffff 15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    // color: #fff;
+    // mix-blend-mode: difference;
+}
+
+// 1:54
+
+.slide__img {}
