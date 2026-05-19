@@ -189,10 +189,12 @@ body {
 }
 
 .case-studies__title {
+  max-width: 1070px;
   margin-bottom: 12px;
 }
 
 .case-studies__text {
+  max-width: 1070px;
   margin-bottom: 100px;
 }
 
@@ -247,4 +249,16 @@ body {
 
 .btn--dark::after {
   background-image: url("./../img/icons/arrow_right_black.svg");
+}
+
+.title {
+  font-size: 80px;
+  font-weight: 800;
+  color: #1f1f11;
+}
+
+.text {
+  font-size: 28px;
+  line-height: 1.57;
+  color: #1f1f11;
 }/*# sourceMappingURL=main.css.map */
