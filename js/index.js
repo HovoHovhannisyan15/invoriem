@@ -123,3 +123,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Первичный запуск логики
     updateSliderPosition();
 });
+
+
+// video

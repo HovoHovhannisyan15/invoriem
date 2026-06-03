@@ -1,0 +1,38 @@
+.footer {
+    padding: 162px 0 82px;
+    letter-spacing: 0.04em;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgba(31, 31, 31, 0.7);
+
+    & a {
+        letter-spacing: 0.04em;
+        font-size: 20px;
+        line-height: 36px;
+        color: rgba(31, 31, 31, 0.7);
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer__nav {
+    display: flex;
+    column-gap: 104px;
+}
+
+.footer__copyright {}
+
+.footer__email {}
+
+.footer__socials {
+    display: flex;
+    column-gap: 26px;
+}

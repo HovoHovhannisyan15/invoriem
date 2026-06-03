@@ -11,7 +11,7 @@
 
 <body>
 
-    <header class="header none">
+    <header class="header">
         <div class="container">
             <!-- навигация -->
             <div class="header__top">
@@ -47,7 +47,7 @@
 
     <main class="main">
         <!-- 1 section -->
-        <section class="case-studies none">
+        <section class="case-studies ">
 
             <div class="container">
                 <div class="case-studies__title">
@@ -120,15 +120,16 @@
                 </div>
 
                 <div class="about__content">
-                    <div class="video">
-                        <button>
-                            <img class="video__btn" src="./img/icons/btn-play.svg" alt="">
+                    <div class="video video__overlay">
+                        <button class="video__btn" id="video-btn">
+                            <img class="video__btn" src="./img/icons/btn-play.svg" alt="Play">
                         </button>
-                        <img class="video__picture" src="./img/Video Picture.jpg" alt="">
+
+                        <video class="video__object" id="video__file" loop>
+                            <img class="video__picture" src="./img/Video Picture.jpg" alt="">
+                            <source src="./img/video.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <video class="video__object">
-                        <source src="./img/video.mp4" type="video/mp4">
-                    </video>
 
                 </div>
             </div>
@@ -138,6 +139,26 @@
 
 
     </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+
+                <div class="footer__copyright">Copyright © 2020 Invoriem</div>
+
+                <div class="footer__nav">
+                    <div class="footer__email"><a href="mailto:info@invoriem.com">info@invoriem.com</a></div>
+                    <div class="footer__socials">
+                        <a href="#!" class="social-icon"><img src="./img/socials/instagram.svg" alt="link"></a>
+                        <a href="#!" class="social-icon"><img src="./img/socials/facebook.svg" alt="link"></a>
+                        <a href="#!" class="social-icon"><img src="./img/socials/twitter.svg" alt="link"></a>
+                        <a href="#!" class="social-icon"><img src="./img/socials/linkedIn.svg" alt="link"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
 
 
